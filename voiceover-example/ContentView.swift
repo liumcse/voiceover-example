@@ -13,7 +13,10 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Use VoiceOver to read the label below")
+                .padding(.vertical)
+            Text("हिंदी")
+                .padding()
         }
         .padding()
     }
